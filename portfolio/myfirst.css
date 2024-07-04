@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display:flex;
+    text-decoration:solid;
+    background-color: lightblue;
+    color: black;
+}
+h1:hover{
+    color: darkmagenta;
+    font-style: italic;
+}
+a{
+    display: flex;
+    padding-left: 15%;
+    margin-left: 15%;
+    font-size: 30px;
+    font-style: italic;
+}
+a:hover{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+body{
+    background-image: url(bg\ image.jpg);
+    color: black;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 10%;
+    height: 50px;
+    width: 100%;
+}
+img{
+    text-align: center;
+    padding-left: 15%; 
+   display: flex;
+   animation:fadeIn 4s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1};
+}
+
+p{
+    text-align: center;
+    height: 0px;
+    width: 50%;
+    padding-left: 35%; 
+    padding-right: 25%;
+    display: flex;
+}
+#portfolio{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+.box1{
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+    border-radius: 40px;
+    color: black;
+}
+.box2{
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color:lightblue;
+    border-radius: 40px;
+    color: black;
+}
+.projects{
+    display: inline-block;
+    height: 120px;
+    width: 100%;
+    background-color:lightblue;
+    border-radius: 40px;
+    text-align: center;
+}
+.contactme{
+    display: inline-block;
+    height: 120px;
+    width: 100%;
+    background-color:lightblue;
+    border-radius: 46px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    color: bisque;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+aside{
+    display: flex;
+    padding-left: 38%;
+    margin: 15px;
+    font-size: 25px;
+   
+  
+}
