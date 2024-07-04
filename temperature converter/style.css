@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/backgroundimage.jpg);
+    background-size: cover;
+}
+.box{
+    height: 497px;
+    width: 597px;
+    color: black;
+    border: 2px solid white;
+    margin-left: 30%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 35px;
+   background-color:rgb(186, 193, 196);
+}
+.degree{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 25px;
+    color: blue;
+}
+p{
+    padding-top: 5%;
+    font-size: 20px;
+    color: blue;
+}
+.col{
+    font-size: 20px;
+    color: red;
+}
+button{
+    height: 50px;
+    width: 99px;
+    border-radius: 15%;
+    margin-top: 10%;
+    background-color:rgb(255, 239, 239);
+}
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
